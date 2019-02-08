@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirebaseApp</string>
+    <string name="firebase_data">Firebase Data</string>
+    <string name="value">Value</string>
+    <string name="send_data">Send Data</string>
+    <string name="send_and_retrieve_data_from_firebase">Send and Retrieve Data from Firebase</string>
+    <string name="retrieve_data">Retrieve Data</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headingView"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="@string/send_and_retrieve_data_from_firebase"
+        android:textAlignment="center"
+        android:textColor="#008000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/sendText"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:text="Sent Data"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/sendData"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="156dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="228dp"
+        android:background="#1E90FF"
+        android:text="Send Button"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/removeButton"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="#1E90FF"
+        android:text="Remove Button"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/retrieveText"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:text="Retrieved Data"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/retrieveData"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="416dp"
+        android:background="#fff"
+        android:textAlignment="textStart"
+        android:textColor="#1E90FF"
+        android:textSize="24sp" />
+
+</RelativeLayout>
